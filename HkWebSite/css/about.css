@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, "微软雅黑", "宋体";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0px auto;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+img {
+    border: none;
+}
+
+.txt2367b2 a {
+    color: #2367b2;
+}
+
+.clearFix {
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    background-color: #D9EDF7;
+}
+
+.about-us {
+    font-size: 38px;
+    color: #0056B3;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.about-us-centent {
+    font-size: 20px;
+    width: 610px;
+    padding-left: 120px;
+    color: black;
+    padding-top: 15px;
+}
+
+.Content1 {
+    margin: 0 auto;
+    width: 52%;
+    min-height: 600px;
+
+}
+
+.c_left {
+    display: block;
+    float: left;
+    width: 242px;
+    margin-top: 10px;
+}
+
+.left_menu {
+    background: beige repeat-y left top;
+    width: 241px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.l_title {
+    background: yellow no-repeat left bottom;
+    width: 231px;
+    float: right;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.l_title h3 {
+    background: black no-repeat 5px center;
+    text-indent: 20px;
+    color: #FFF;
+    line-height: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.l_mist {
+    width: 212px;
+    clear: both;
+}
+
+.l_mist ul li {
+    background: white no-repeat 10px 8px;
+    border-bottom: 1px solid #75cce8;
+    text-indent: 50px;
+    line-height: 27px;
+    list-style: none;
+}
+
+.c_right {
+    display: block;
+    float: right;
+    background: url(../images/s_rbg.jpg) no-repeat left top;
+    width: 733px;
+    min-height: 450px;
+    margin-top: 10px;
+}
+
+.postion {
+    display: block;
+    padding-top: 25px;
+    text-align: left;
+    color: #2367b2;
+}
+
+.abinfo {
+    display: block;
+    width: 700px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #7e8285;
+    text-align: left;
+    line-height: 32px;
+    min-height: 450px
+}
+.dividing-line{
+    border-bottom: 1px solid #000000;
+}
+.hide{
+    display:none;
+}

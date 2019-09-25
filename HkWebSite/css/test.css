@@ -1,0 +1,27 @@
+html body{
+    width: 1800px;
+    height: 100%;
+    background-size:100%;
+}
+.test1{
+    float: right;
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    background: white;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 1px;
+    text-align: center; /*让div内部文字居中*/
+}
+.test2{
+    float: left;
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    background: white;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 1px;
+    text-align: center; /*让div内部文字居中*/
+}

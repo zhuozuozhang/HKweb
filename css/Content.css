@@ -1,0 +1,105 @@
+body{
+	
+	font-family: Arial,"微软雅黑","宋体";
+}
+ol{
+	list-style: none;
+}
+li{
+	text-align: -webkit-match-parent;
+	list-style-image:url(http://aimg8.dlszyht.net.cn/ev_user_module_content_tmp/2018_09_18/tmp1537201574_1760084_s.png);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.Content{
+	width: 1200px;
+	margin: 0 auto;
+	height: 400px;
+}
+.hide{
+	display:none;
+	}
+.title{
+	font-size: 28px;
+	font-style: normal;
+	color: #B21F2D;
+	text-align: center;
+	padding-top: 8px;
+}
+.size{
+	width: 800px;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+.size1{
+	width: 600px;
+	margin-top: 30px;
+	margin-left: 230px;
+}
+.text1{
+	font-family: 微软雅黑;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	color:#0056B3;
+}
+.wrapp{
+	float:left; 
+	clear: both;
+}
+.wrapp img{
+	 padding-right: 28px;
+	 width: 450px;
+	 height: 235px;
+}
+.more{
+	float: right;
+}
+
+.q {
+    zoom: 1;
+}
+.inner{
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-color: #CCC;
+	padding-right: 70px;
+	margin-top: 5px;
+    position: relative;
+    height: 30px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-top: 0;
+}
+.text-list-times{
+	font-family: 微软雅黑;
+	font-style: normal;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 18px;
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+.text-list-a{
+	overflow: hidden;
+    display: inline-block;
+    zoom: 1;
+    width: 100%;
+    text-overflow: ellipsis;
+	
+}
+.text-list-a a{
+	cursor: pointer;
+	font-size: 20px;
+}
+.dividing-line{
+	border-bottom: 1px solid #000000;
+}
+.bottom{
+	margin-top: 10px;
+}

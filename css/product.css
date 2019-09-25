@@ -1,0 +1,197 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.ny-ban {
+    text-align: center;
+}
+
+.wrap {
+    padding: 30px 0;
+}
+
+.title1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sub-nav {
+    margin: 30px 0 0 0;
+    height: 60px;
+    line-height: 60px;
+    background: black;
+    padding-left: 20px;
+    text-align: center;
+    border: 1px solid #e2e3e5;
+    overflow: hidden;
+}
+
+.sub-nav li {
+    float: left;
+    width: auto;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.sub-nav li a {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    display: block;
+    color: #fff;
+}
+
+.cervix {
+}
+
+.cervix ul {
+    margin: 0;
+    position: absolute;
+    left: -1px;
+}
+
+.cervix li {
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 12px;
+    overflow: hidden;
+}
+
+.cervix li a {
+    text-decoration: none;
+}
+
+.cervix li:hover {
+    background-color: white;
+}
+.sub-nav li a:hover {
+    color: red;
+}
+.ffxm-list {
+    padding-top: 30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.ffxm-list li {
+    text-align: center;
+    padding: 15px;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-0, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}
+
+.ffxm-list li a {
+    display: block;
+    color: #969696;
+    padding: 10px;
+    border: 1px #eee solid;
+}
+
+fieldset, img {
+    border: none;
+}
+
+.ffxm-list li h3 {
+    color: #333;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.ffxm-list p {
+    font-size: 16px;
+    height: 44px;
+    overflow: hidden;
+    line-height: 22px;
+    text-align: left;
+}
+.ffxm-list li a:hover h3 {
+    color: brown;
+}
+.dividing-line{
+    border-bottom: 1px solid #000000;
+}
+/*尾部*/
+.foot-top{
+    float: right;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.body-content{
+    margin-top: 15px;
+}
+.foot-rwm{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: inherit;
+}
+.foot-lx{
+    float: right;
+
+}
+.foot-txt{
+    float: right;
+    margin-left: 20px;
+}
+.foot-lx h3{
+    font-size: 18px;
+}
+.icon-dz {
+    font-size: 16px;
+}
+.foot-ico{
+    font-size: 16px;
+}
+
+

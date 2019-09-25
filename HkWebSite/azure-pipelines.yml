@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+# HTML
+# Archive your static HTML project and save it with the build record.
+=======
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+>>>>>>> cf23c01b372c6ff3d705d7f9baa15515f8983081
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+<<<<<<< HEAD
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(build.sourcesDirectory)'
+    includeRootFolder: false
+- task: PublishBuildArtifacts@1
+=======
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+>>>>>>> cf23c01b372c6ff3d705d7f9baa15515f8983081
